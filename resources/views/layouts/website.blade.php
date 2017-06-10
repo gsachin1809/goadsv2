@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Resale a Business Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>GoAds</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-select.css">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -148,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="footer-bottom text-center">
 			<div class="container">
 				<div class="footer-logo">
-					<a href="index.html"><span>Re</span>sale</a>
+					<a href="index.html"><span>Go</span>Ads</a>
 				</div>
 				<div class="footer-social-icons">
 					<ul>
@@ -160,7 +160,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<div class="copyrights">
-					<p> © 2016 Resale. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+					<p> © 2016 Resale. All Rights Reserved | Design by  <a href="http://avoir.tech/"> Avoir Software Pvt Ltd</a></p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
