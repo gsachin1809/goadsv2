@@ -91,39 +91,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  @yield('content')
 
 <!--footer section start-->		
+    <hr>
 		<footer>
 			<div class="footer-top">
 				<div class="container">
 					<div class="foo-grids">
 						<div class="col-md-3 footer-grid">
 							<h4 class="footer-head">Who We Are</h4>
-							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-							<p>The point of using Lorem Ipsum is that it has a more-or-less normal letters, as opposed to using 'Content here.</p>
+							<p>Advertising is one of the key activities for potential business and is equally important as raw materials, Capital , manpower etc., for any business. Advertising Companies use multifaceted talents and ideas to carry out successful campaigns. Indian Advertising industry is projected to be the second fastest growing advertising market in Asia after China. </p>
 						</div>
 						<div class="col-md-3 footer-grid">
 							<h4 class="footer-head">Help</h4>
 							<ul>
-								<li><a href="howitworks.html">How it Works</a></li>						
-								<li><a href="sitemap.html">Sitemap</a></li>
-								<li><a href="faq.html">Faq</a></li>
-								<li><a href="feedback.html">Feedback</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="typography.html">Shortcodes</a></li>
+								<li><a href="/howwework">How it Works</a></li>						
+								<li><a href="/faq">Faq</a></li>
+								<li><a href="/feedback">Feedback</a></li>
+								
+								
 							</ul>
 						</div>
 						<div class="col-md-3 footer-grid">
 							<h4 class="footer-head">Information</h4>
 							<ul>
-								<li><a href="regions.html">Locations Map</a></li>	
-								<li><a href="terms.html">Terms of Use</a></li>
-								<li><a href="popular-search.html">Popular searches</a></li>	
-								<li><a href="privacy.html">Privacy Policy</a></li>	
+								<li><a href="/aboutus">About Us</a></li>	
+								<li><a href="/traffic">Traffis</a></li>	
+								<li><a href="/privacy">Privacy Policy</a></li>	
 							</ul>
 						</div>
 						<div class="col-md-3 footer-grid">
 							<h4 class="footer-head">Contact Us</h4>
-							<span class="hq">Our headquarters</span>
 							<address>
+<!--
 								<ul class="location">
 									<li><span class="glyphicon glyphicon-map-marker"></span></li>
 									<li>CENTER FOR FINANCIAL ASSISTANCE TO DEPOSED NIGERIAN ROYALTY</li>
@@ -134,9 +132,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li>+0 561 111 235</li>
 									<div class="clearfix"></div>
 								</ul>	
+-->
 								<ul class="location">
 									<li><span class="glyphicon glyphicon-envelope"></span></li>
-									<li><a href="mailto:info@example.com">mail@example.com</a></li>
+									<li><a href="mailto:info@example.com">info@goads.co </a></li>
+									<div class="clearfix"></div>
+								</ul>
+								<ul class="location">
+									<li><span class="glyphicon glyphicon-envelope"></span></li>
+									<li><a href="mailto:info@example.com">marketing@goads.co</a></li>
 									<div class="clearfix"></div>
 								</ul>						
 							</address>

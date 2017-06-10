@@ -12,9 +12,29 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+Route::get('/faq', function () {
+    return view('faq');
+});
+Route::get('/howwework', function () {
+    return view('howwework');
+});
+Route::get('/contactus', function () {
+    return view('contactus');
+});
+Route::get('/traffic', function () {
+    return view('traffic');
+});
+Route::get('/privacy', function () {
+    return view('privacy');
 });
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+
+
+Route::get('/feedback', function () {
+    return view('feedback');
 });
