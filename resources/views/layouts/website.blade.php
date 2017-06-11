@@ -74,7 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a href="/"><span>Go</span>Ads</a>
 			</div>
 			<div class="header-right">
-			<a class="account" href="login.html">My Account</a>
+			<a class="account" href="login">My Account</a>
 			
 	<!-- Large modal -->
 			
