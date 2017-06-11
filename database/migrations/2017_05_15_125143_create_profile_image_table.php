@@ -3,8 +3,9 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+Schema::defaultStringLength(191);
 
-class CreateUsersTable extends Migration
+class CreateProfileImageTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +14,13 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('profile_image', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
             $table->string('email')->unique();
-            $table->string('password');
-            $table->rememberToken();
+            $table->string('photo')->nullable();
             $table->timestamps();
-            $table->boolean('is_active')->nullable()->default(true);
-            $table->enum('type',['customer','admin'])->default('customer');
+            $table->softDeletes();
+            // $table->date('deleted_at');
         });
     }
 
@@ -32,6 +31,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('profile_image');
     }
 }

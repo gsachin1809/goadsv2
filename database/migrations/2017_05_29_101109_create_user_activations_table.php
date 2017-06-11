@@ -4,10 +4,10 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 Schema::defaultStringLength(191);
-class CreatePasswordResetsTable extends Migration
+
+
+class CreateUserActivationsTable extends Migration
 {
-    
-     
     /**
      * Run the migrations.
      *
@@ -15,10 +15,11 @@ class CreatePasswordResetsTable extends Migration
      */
     public function up()
     {
-        Schema::create('password_resets', function (Blueprint $table) {
-            //$table->string('email')->unique();
-            $table->string('token');
-            $table->timestamp('created_at')->nullable();
+        Schema::create('user_activations', function (Blueprint $table) {
+            $table->integer('user_id')->unsigned();
+            $table->string('token')->index();
+            $table->boolean('activated')->default(false);
+            $table->timestamp('created_at');
         });
     }
 
@@ -29,6 +30,6 @@ class CreatePasswordResetsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('password_resets');
+        Schema::dropIfExists('user_activations');
     }
 }
